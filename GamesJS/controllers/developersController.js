@@ -1,4 +1,4 @@
-const DeveloperTeam = require("../models/developers");
+const DeveloperTeam = require("../models/developer");
 
 exports.create = (req, res) => {
     const team = {

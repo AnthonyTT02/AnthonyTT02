@@ -1,6 +1,8 @@
 const sequelize = require('./config/database');
+const models = require('./models'); 
 
-sequelize.sync({ alter: true })  // 'alter: true' обновляет структуру таблиц, если это необходимо
+
+sequelize.sync({ alter: true })  
   .then(() => {
     console.log('База данных успешно синхронизирована.');
   })

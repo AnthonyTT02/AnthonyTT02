@@ -1,24 +1,21 @@
 const db = require('../config/database');
 const { DataTypes } = require('sequelize');
 
-const Review = db.define('Review', {
+const Developer = db.define('Developer', {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true,
     allowNull: false,
   },
-  rating: {
-    type: DataTypes.FLOAT,
+  name: {
+    type: DataTypes.STRING,
     allowNull: false,
-  },
-  comment: {
-    type: DataTypes.TEXT,
-    allowNull: true,
+    unique: true,
   },
 }, {
-  tableName: 'reviews',
+  tableName: 'developers',
   timestamps: false,
 });
 
-module.exports = Review;
+module.exports = Developer;

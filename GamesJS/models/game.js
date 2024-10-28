@@ -12,48 +12,13 @@ const Game = db.define('Game', {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  release_date: {
+  releaseDate: {
     type: DataTypes.DATE,
-    allowNull: false,
-  },
-  rating: {
-    type: DataTypes.FLOAT,
-    allowNull: false,
-  },
-  times_listed: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-  },
-  number_of_reviews: {
-    type: DataTypes.INTEGER,
     allowNull: false,
   },
   summary: {
     type: DataTypes.TEXT,
-    allowNull: false,
-  },
-  reviews_text: {
-    type: DataTypes.TEXT,
-  },
-  plays: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-  },
-  playing: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-  },
-  backlogs: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-  },
-  wishlist: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-  },
-  developer_team_id: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
+    allowNull: true,
   },
 }, {
   tableName: 'games',

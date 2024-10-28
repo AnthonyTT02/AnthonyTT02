@@ -1,14 +1,18 @@
 const db = require('../config/database');
 const { DataTypes } = require('sequelize');
 
-const Statistics = db.define('UserStatistics', {
+const Statistics = db.define('Statistics', {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true,
     allowNull: false,
   },
-  game_id: {
+  timesListed: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
+  numberOfReviews: {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
@@ -29,7 +33,7 @@ const Statistics = db.define('UserStatistics', {
     allowNull: false,
   },
 }, {
-  tableName: 'user_statistics',
+  tableName: 'statistics',
   timestamps: false,
 });
 

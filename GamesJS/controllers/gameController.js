@@ -44,4 +44,5 @@ exports.findAll = (req, res) => {
                 message: err.message || "Some error occurred while retrieving games."
             });
         });
+        
 };
