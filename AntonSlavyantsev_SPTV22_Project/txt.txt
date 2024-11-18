@@ -1,0 +1,2 @@
+npm install swagger-ui-express swagger-jsdoc
+npm install bcrypt jsonwebtoken
