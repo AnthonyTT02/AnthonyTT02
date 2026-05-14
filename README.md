@@ -1,4 +1,4 @@
 -🙋‍♂️Hello, my name is Anton and I would be delighted to work for your company.
--🚩I can fluently speak Russian and Inglish languages / a bit Estonian.
+-🚩I can fluently speak Russian and English languages / a bit Estonian.
 - I got 4 years of software development experience.
 - 
