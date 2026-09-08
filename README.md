@@ -172,23 +172,6 @@ const Anton = {
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AnthonyTT02&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnthonyTT02&layout=compact&langs_count=8&theme=tokyonight"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=AnthonyTT02&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
 ## 📫 Connect with Me
 
 <div align="center">
@@ -200,7 +183,3 @@ const Anton = {
 </div>
 
 ---
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AnthonyTT02&color=6C63FF&style=flat-square&label=Profile+Views" />
-</div>
